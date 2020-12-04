@@ -1,0 +1,38 @@
+Comando punto 8 (Etiqueta):  git tag -a MARTINEZ-MANJAVACAS-JAVIER-paso5 -m "Etiqueta punto 8" ec781f46c8e958394a2eabe2191e300329fcfe6c
+
+Comando punto 9.
+
+	Comando para cambiar de rama:
+
+		git checkout main
+
+	SALIDA DEL COMANDO:
+
+		Switched to branch 'main'
+		Your branch is up to date with 'origin/main'.
+
+	Comando para fusionar ambas ramas:
+
+		 git merge MARTINEZ-MANJAVACAS-JAVIER -m "Fusión de ramas"
+
+	SALIDA DEL COMANDO:
+
+		Updating b79c7ba..1c161d6
+		Fast-forward (no commit created; -m option ignored)
+		respuestas/ejercicio1-4.txt | 12 ++++++++++++
+		respuestas/ejercicio1-6.txt |  9 +++++++++
+		2 files changed, 21 insertions(+)
+		create mode 100644 respuestas/ejercicio1-4.txt
+		create mode 100644 respuestas/ejercicio1-6.txt		
+
+	Comando para ver los commits en una línea:
+
+		$ git log --graph --oneline
+
+	SALIDA DEL COMANDO:
+
+		* 1c161d6 (HEAD -> main, MARTINEZ-MANJAVACAS-JAVIER) Añadida respuesta del ejercicio 1.6
+		* ec781f4 (tag: MARTINEZ-MANJAVACAS-JAVIER-paso5) Añadida respuesta del ejercicio 1.4
+		* b79c7ba (origin/main, origin/HEAD) Update .gitignore
+		* 7b39baf Initial commit
+
