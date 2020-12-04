@@ -1,0 +1,9 @@
+El comando solicitado por el enunciado es: git log --graph --oneline
+
+Salida del comando al ejecutarlo:
+
+$ git log --graph --oneline
+* ec781f4 (HEAD -> MARTINEZ-MANJAVACAS-JAVIER) Añadida respuesta del ejercicio 1.4
+* b79c7ba (origin/main, origin/HEAD, main) Update .gitignore
+* 7b39baf Initial commit
+
