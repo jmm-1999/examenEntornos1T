@@ -1,0 +1,3 @@
+Comando para ver el estado del repositorio local: git status
+
+Comando para ver el historial de cambios: git log
